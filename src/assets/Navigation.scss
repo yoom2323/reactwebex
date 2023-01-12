@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  /* flex-container */
+  text-transform: uppercase;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  /* align-items:  */
+
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 9999;
+}
+nav h1 {
+  /* flex-item */
+  /* margin-right: auto; 플렉스 아이템 개별 정렬 */
+  margin-left: 3vw;
+  position: relative;
+  top: -15px;
+  img {
+    height: 80px;
+  }
+  /* justify-content: flex-start; */
+}
+// nav h1 a img {
+//   position: relative;
+//   top: -35px;
+// }
+// nav h1 a {
+//   margin: 0;
+//   padding: 0;
+// }
+nav #gnb {
+  display: flex;
+  list-style: none;
+
+  // align-items: flex-start;
+}
+nav #gnb > li {
+  position: relative;
+  padding: 0 20px 0 20px;
+}
+nav #gnb > li > a {
+  font-weight: 700;
+  font-size: 1.1rem;
+  /* padding: 0 20px; */
+  height: 60px;
+  line-height: 50px;
+  /* transition: .3s; */
+  text-decoration: none;
+  color: white;
+}
+nav #gnb > li > a:hover {
+  background-color: #2fc8af;
+  color: #fff;
+}
+/* 소메뉴 */
+nav #gnb .sub_menu {
+  background-color: #fff;
+  box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.022),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.031),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.039),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.048),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+
+  width: 120px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 9999;
+
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none; /* 마우스 이벤트 대상 없음. 마우스 커서의 기능 X*/
+  list-style: none;
+  li {
+    transform: translateX(-30px);
+    padding: 10px 0;
+  }
+}
+nav #gnb > li:hover .sub_menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all /* 마우스 이벤트 대상 전부. 마우스 커서의 기능*/;
+}
+nav #gnb .sub_menu a {
+  font-weight: 700;
+  padding: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #333333;
+}
+nav #gnb .sub_menu a:hover {
+  padding: 10px 0 10px 28px;
+  /* background-color: #000; */
+  color: #2fc8af;
+}
+nav #registry {
+  /* flex-item */ /* flex-container */
+  display: flex;
+  margin-right: 20px;
+  list-style: none;
+}
+nav #registry a {
+  margin: 0 20px;
+  font-size: 1.1rem;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+}
+nav #registry a:hover {
+  color: red;
+}

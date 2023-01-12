@@ -1,0 +1,89 @@
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+section {
+  position: relative;
+}
+.headerSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 999;
+  font-size: 1.7em;
+  text-align: center;
+  color: white;
+
+  animation: big 1s ease-in-out;
+}
+@keyframes big {
+  0% {
+    scale: 0.5;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.headerSection p {
+  font-weight: 100;
+  font-size: 0.9em;
+}
+.ghost_btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.ghost_btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.material_symbols_rounded {
+  color: white;
+  font-size: 1.2em;
+  display: block;
+  transform: translateY(230px);
+
+  -webkit-animation: blink 0.5s ease-in-out infinite alternate;
+  -moz-animation: blink 0.5s ease-in-out infinite alternate;
+  animation: blink 0.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

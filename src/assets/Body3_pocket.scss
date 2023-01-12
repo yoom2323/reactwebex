@@ -1,0 +1,57 @@
+#main_section3 {
+  width: 80vw;
+  margin: 0 auto 10vh;
+}
+#main_section3 h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-top: 10vh;
+}
+#main_section3 .pocket {
+  display: flex;
+}
+
+#main_section3 .pocket .pocket_img img {
+  width: 538px;
+  height: 607px;
+
+  animation: transY 1s ease-in-out;
+}
+@keyframes transY {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#main_section3 .pocket .pocket_txt1 {
+  text-align: right;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#main_section3 .pocket .pocket_txt1 h3 {
+  font-size: 1.8em;
+}
+#main_section3 .pocket .pocket_txt1 p {
+  font-size: 1.2em;
+  line-height: 30px;
+}
+#main_section3 .pocket .pocket_txt2 {
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#main_section3 .pocket .pocket_txt2 h3 {
+  font-size: 1.8em;
+}
+#main_section3 .pocket .pocket_txt2 p {
+  font-size: 1.2em;
+  line-height: 30px;
+}
