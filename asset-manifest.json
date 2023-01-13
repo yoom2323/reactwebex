@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactwebex/static/css/main.23d654d7.css",
+    "main.js": "/reactwebex/static/js/main.f4b8a833.js",
+    "static/media/171124_H1_006.mp4": "/reactwebex/static/media/171124_H1_006.6db597c537327051b2f0.mp4",
+    "static/media/img-mockup-2.png": "/reactwebex/static/media/img-mockup-2.7175d9bae5e3bcdd3e3e.png",
+    "static/media/03.jpg": "/reactwebex/static/media/03.f8012df9231bdfd8670d.jpg",
+    "static/media/02.jpg": "/reactwebex/static/media/02.9d5538113612d2ff3506.jpg",
+    "static/media/05.jpg": "/reactwebex/static/media/05.2290730954694f3882c5.jpg",
+    "static/media/08.jpg": "/reactwebex/static/media/08.cbb5a46bec92923fb431.jpg",
+    "static/media/01.jpg": "/reactwebex/static/media/01.8818d39416bd318916b0.jpg",
+    "static/media/04.jpg": "/reactwebex/static/media/04.f1a9f660fb3e037162a1.jpg",
+    "static/media/07.jpg": "/reactwebex/static/media/07.a2039d556fb978d57d1b.jpg",
+    "static/media/06.jpg": "/reactwebex/static/media/06.1a23e94429b7ef26abda.jpg",
+    "index.html": "/reactwebex/index.html",
+    "main.23d654d7.css.map": "/reactwebex/static/css/main.23d654d7.css.map",
+    "main.f4b8a833.js.map": "/reactwebex/static/js/main.f4b8a833.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23d654d7.css",
+    "static/js/main.f4b8a833.js"
+  ]
+}
