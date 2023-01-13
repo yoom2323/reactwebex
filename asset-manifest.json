@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactwebex/static/css/main.23d654d7.css",
-    "main.js": "/reactwebex/static/js/main.f4b8a833.js",
+    "main.js": "/reactwebex/static/js/main.c1675a14.js",
     "static/media/171124_H1_006.mp4": "/reactwebex/static/media/171124_H1_006.6db597c537327051b2f0.mp4",
     "static/media/img-mockup-2.png": "/reactwebex/static/media/img-mockup-2.7175d9bae5e3bcdd3e3e.png",
     "static/media/03.jpg": "/reactwebex/static/media/03.f8012df9231bdfd8670d.jpg",
@@ -14,10 +14,10 @@
     "static/media/06.jpg": "/reactwebex/static/media/06.1a23e94429b7ef26abda.jpg",
     "index.html": "/reactwebex/index.html",
     "main.23d654d7.css.map": "/reactwebex/static/css/main.23d654d7.css.map",
-    "main.f4b8a833.js.map": "/reactwebex/static/js/main.f4b8a833.js.map"
+    "main.c1675a14.js.map": "/reactwebex/static/js/main.c1675a14.js.map"
   },
   "entrypoints": [
     "static/css/main.23d654d7.css",
-    "static/js/main.f4b8a833.js"
+    "static/js/main.c1675a14.js"
   ]
 }
