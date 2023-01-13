@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/yoom2323/newreactweb.git",
+  "homepage": "https://yoom2323.github.io/reactwebex",
   "name": "230102",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

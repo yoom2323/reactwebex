@@ -1,4 +1,5 @@
 import "../assets/Body2_video.scss";
+import video from "../imgs/171124_H1_006.mp4";
 
 function Body2_video(props) {
   return (
@@ -14,12 +15,7 @@ function Body2_video(props) {
         만들어야 한다.
       </p>
       <div className="section2_video">
-        <video
-          src="./images/171124_H1_006.mp4"
-          muted={true}
-          loop={true}
-          autoPlay={true}
-        ></video>
+        <video src={video} muted={true} loop={true} autoPlay={true}></video>
       </div>
     </article>
   );

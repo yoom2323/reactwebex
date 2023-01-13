@@ -1,5 +1,4 @@
 import "../assets/Body3_pocket.scss";
-
 function Body3_pocket() {
   return (
     <article id="main_section3">
@@ -32,9 +31,7 @@ function Body3_pocket() {
             </p>
           </div>
         </div>
-        <div className="pocket_img">
-          <img src="./images/img-mockup-2.png" alt="주머니" />
-        </div>
+        <div className="pocket_img"></div>
         <div className="pocket_txt2">
           <div className="txt4">
             <h3>디자인</h3>

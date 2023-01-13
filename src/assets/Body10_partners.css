@@ -1,0 +1,58 @@
+#section_10 h2 {
+  margin-top: 10vh;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#section_10 p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.mySwiper {
+  width: 80vw;
+  height: 20vh;
+}
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  background-color: #2fc8af;
+}
+
+/* #section_10 .partner {
+  display: flex;
+  justify-content: space-between;
+} */
+/* #section_10 .partner li {
+  width: 12vw;
+  height: 10vw;
+  border: #ddd solid 1px;
+}
+#section_10 .partner li a {
+  text-indent: -9999px;
+  display: block;
+} */
+/* #section_10 .partner li:nth-child(1) {
+  background: url(./images/client-01.png) no-repeat 50% / cover;
+}
+#section_10 .partner li:nth-child(2) {
+  background: url(./images/client-02.png) no-repeat 50% / cover;
+}
+#section_10 .partner li:nth-child(3) {
+  background: url(./images/client-05.png) no-repeat 50% / cover;
+}
+#section_10 .partner li:nth-child(4) {
+  background: url(./images/client-06.png) no-repeat 50% / cover;
+}
+#section_10 .partner li:nth-child(5) {
+  background: url(./images/client-09.png) no-repeat 50% / cover;
+}
+#section_10 .partner li:nth-child(6) {
+  background: url(./images/client-10.png) no-repeat 50% / cover;
+}
+ */

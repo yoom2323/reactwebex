@@ -1,0 +1,61 @@
+@charset "UTF-8";
+#section_7 {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#section_7 h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#section_7 p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* 카카오맵 */
+.location_map #kakao_map {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 5vh;
+}
+
+#section_7 .location_info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#section_7 .location_info div {
+  width: 20vw;
+}
+
+#section_7 .location_info div {
+  display: flex;
+  justify-content: center;
+}
+
+#section_7 .location_info div div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#section_7 .location_info div span {
+  font-size: 2em;
+}
+
+#section_7 .location_info div h4 {
+  font-size: 1.5em;
+  margin: 0;
+  width: 200px;
+}
+
+#section_7 .location_info div p {
+  text-align: left;
+  text-transform: lowercase;
+  font-size: 0.9em;
+  color: #333333;
+  margin-bottom: 10vh;
+}
